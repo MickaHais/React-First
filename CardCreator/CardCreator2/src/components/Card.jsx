@@ -3,7 +3,7 @@ import CardEffect from './CardEffect.jsx'
 
 function Card({ name, cost, artwork, type, effect, keywords }) {
   return (
-    <div className="card">
+    <div className="card box">
       <img className="card-artwork" src={artwork} alt="artwork"/>
       <div className="card-header">
         <div className="card-group">
